@@ -1,0 +1,31 @@
+
+h1{width:10px;margin:0 auto 0 auto;font-size:2.625rem;font-family:sans-serif;}
+.top-container{margin-top:0;color:#e4f9f5;position:relative;}
+body{margin:0;text-align:center;font-family:sans-serif,monospace;}
+
+
+.top-cloud{position:absolute;right:10px; top:10px;}
+
+.bottom-cloud{position:absolute;left:70px; top:70px;}
+.selfi{width:23%;}
+.mango{width:30%;position:absolute;right:350px;}
+.skill-row{width:50%;
+             margin:100px auto 100px auto;}
+.head{position:relative;right:40px; }
+.mountain{position:relative;}
+.hello{margin:auto;color:#77d8d8;}
+.nksh{vertical-align:middle;width:200px;height:150px;border-radius:50%;}
+.skillimage{width:200px;height:100px;padding-bottom: 100px;border-radius:50%;}
+.skills{padding-top:20px;color:#77d8d8;}
+.contact-me{background-color:#66bfbf; }
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;border-radius:50%;
+}
+hr{border:dotted#EAF6F6 6px;border-bottom:none;width:15%;}
