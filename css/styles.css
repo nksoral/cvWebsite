@@ -1,31 +1,50 @@
 
 h1{width:10px;margin:0 auto 0 auto;font-size:2.625rem;font-family:sans-serif;}
-.top-container{margin-top:0;color:#e4f9f5;position:relative;}
+.top-container{margin-top:0;position:relative;background-color:#66BFBF; }
 body{margin:0;text-align:center;font-family:sans-serif,monospace;}
 
 
-.top-cloud{position:absolute;right:10px; top:10px;}
+.top-cloud{position:absolute;right:30px; top:10px;}
 
 .bottom-cloud{position:absolute;left:70px; top:70px;}
 .selfi{width:23%;}
-.mango{width:30%;position:absolute;right:350px;}
-.skill-row{width:50%;
-             margin:100px auto 100px auto;}
-.head{position:relative;right:40px; }
+.middle-container{ background-color: #66BFBF;}
+.skill-row{width:70%;margin-left:300px;margin-bottom:50px;text-align:center;}
+.head{position:relative;right:40px;background-color:#66BFBF;color:#669900;}
 .mountain{position:relative;}
 .hello{margin:auto;color:#77d8d8;}
 .nksh{vertical-align:middle;width:200px;height:150px;border-radius:50%;}
-.skillimage{width:200px;height:100px;padding-bottom: 100px;border-radius:50%;}
-.skills{padding-top:20px;color:#77d8d8;}
-.contact-me{background-color:#66bfbf; }
-.btn{
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;border-radius:50%;
+.skillimage{border-radius:50%;float:left;height:200px;width:150px;}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 11px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
 }
 hr{border:dotted#EAF6F6 6px;border-bottom:none;width:15%;}
+h3{text-align:center;
+ }
+.bottom-container{background-color:#599bb3; padding:50px 0 20px;}
+a{color:#d8bfbf;font-family:'Montserrat', san-serif; margin:10px 20px; text-decoration:none;}
+a:hover{color:#66BFBF;}
+.copywrite{font-size:0.75rem; }
+.skills{color:#669900;}
+.contact-me{color:#669900;}
